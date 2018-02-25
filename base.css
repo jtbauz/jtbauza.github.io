@@ -1,5 +1,5 @@
 /* Structural Elements */
-body {
+html, body {
 	font-family: Helvetica san-serif;
 	margin: 0;
 	padding: 0;
@@ -40,6 +40,10 @@ div {
 	border-top: solid 1px #CCCCCC;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica san-serif;
+}
 
 h1, h2, h3 {
 	color: #212121;
