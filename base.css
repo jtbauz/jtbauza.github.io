@@ -1,6 +1,6 @@
 /* Structural Elements */
-html, body {
-	font-family: Helvetica, Verdana, Arial san-serif;
+body {
+	font-family: Helvetica san-serif;
 	margin: 0;
 	padding: 0;
 }
