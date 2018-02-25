@@ -1,4 +1,10 @@
 /* Structural Elements */
+html, body {
+	font-family: Helvetica, Verdana, Arial san-serif;
+	margin: 0;
+	padding: 0;
+}
+
 div.grid-parent {
 	display: grid;
 	grid-template-columns: 100px auto 100px;
@@ -34,9 +40,6 @@ div {
 	border-top: solid 1px #CCCCCC;
 }
 
-h1, h2, h3, h4, h5 h6 {
-	font-family: Helvetica;
-}
 
 h1, h2, h3 {
 	color: #212121;
