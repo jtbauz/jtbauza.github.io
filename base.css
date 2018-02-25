@@ -1,0 +1,48 @@
+/* Structural Elements */
+div.grid-parent {
+	display: grid;
+	grid-template-columns: 100px auto 100px;
+	grid-template-rows: 50px 200px auto;
+	border: solid 1px #333333;
+}
+
+div.grid-parent-sub {
+	display:subgrid;
+}
+
+div.grid-child {
+	grid
+}
+
+
+div.section:nth-child(3n-2) {
+	padding: 1em 3em;
+	background-color: #F5F5F5;
+}
+
+div.section:nth-child(3n-1) {
+	padding: 1em 3em;
+	background-color: #FFFFFF;
+}
+
+div:nth-child(3n) {
+	padding: 1em 3em;
+	background-color: #FFEBEE;
+}
+
+div {
+	border-top: solid 1px #CCCCCC;
+}
+
+h1, h2, h3, h4, h5 h6 {
+	font-family: Helvetica;
+}
+
+h1, h2, h3 {
+	color: #212121;
+}
+
+h4, h5, h6 {
+	color: #616161;
+}
+
