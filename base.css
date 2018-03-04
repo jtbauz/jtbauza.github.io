@@ -1,4 +1,6 @@
-/* Structural Elements */
+/* ---------------- */
+/* Structural Stuff */
+/* ---------------- */
 html, body {
 	font-family: Helvetica san-serif;
 	margin: 0;
@@ -20,26 +22,31 @@ div.grid-child {
 	griddd
 }
 
+/* --------------- */
+/* Stylistic Stuff */
+/* --------------- */
+div.section {
+	border-top: solid 1px #CCCCCC;
+	padding: 1em 3em;
+}
 
 div.section:nth-child(3n-2) {
-	padding: 1em 3em;
 	background-color: #F5F5F5;
 }
 
 div.section:nth-child(3n-1) {
-	padding: 1em 3em;
 	background-color: #FFFFFF;
 }
 
-div:nth-child(3n) {
-	padding: 1em 3em;
+div.section:nth-child(3n) {
 	background-color: #FFEBEE;
 }
 
-div {
-	border-top: solid 1px #CCCCCC;
+div.header, div.footer {
+	background-color:#333333;
+	color:#E0E0E0;
+	padding:3em;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Helvetica san-serif;
