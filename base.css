@@ -1,4 +1,6 @@
-/* Structural Elements */
+/* ---------------- */
+/* Universal Change */
+/* ---------------- */
 html, body {
 	font-family: Helvetica san-serif;
 	margin: 0;
@@ -41,35 +43,36 @@ div.flex-child {
 	flex:1 1 auto;
 }
 
-/*-----------*/
-/* Other CSS */
-/*-----------*/
+/* --------------- */
+/* Stylistic Stuff */
+/* --------------- */
 div.section {
 	border-top: solid 1px #CCCCCC;
 	padding: 1em 3em;
+}
+
+div.section:nth-child(3n-2) {
+	background-color: #F5F5F5;
+}
+
+div.section:nth-child(3n-1) {
+	background-color: #FFFFFF;
 }
 
 div.section:nth-child(3n) {
 	background-color: #FFEBEE;
 }
 
-div.section:nth-child(3n-1) {
-	background-color: #F5F5F5;
-}
-
-div.section:nth-child(3n-2) {
-	background-color: #FFFFFF;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: Helvetica san-serif;
 }
 
-h1, h2, h3 {
-	color: #212121;
-}
+/* ------------- */
+/*/* Style by ID */
+/* ------------- */
 
-h4, h5, h6 {
-	color: #616161;
+#header, #footer {
+	background-color:#333333;
+	color:#E0E0E0;
+	padding:3em;
 }
-
