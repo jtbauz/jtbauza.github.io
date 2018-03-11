@@ -5,11 +5,22 @@ html, body {
 	padding: 0;
 }
 
-div.grid-parent {
+/*----------*/
+/* CSS Grid */
+/*----------*/
+/*div.grid-parent {
 	display: grid;
 	grid-template-columns: 100px auto 100px;
 	grid-template-rows: 50px 200px auto;
 	border: solid 1px #333333;
+}*/
+
+div.grid-parent {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px 5px;
+	background-color: #333333;
+	border: solid 1px #ff0000;
 }
 
 div.grid-parent-sub {
@@ -20,26 +31,35 @@ div.grid-child {
 	griddd
 }
 
-
-div.section:nth-child(3n-2) {
-	padding: 1em 3em;
-	background-color: #F5F5F5;
+div.flex-parent {
+	display:flex;
+	color:#ffffff;
+	background-color:#0069b3;
 }
 
-div.section:nth-child(3n-1) {
-	padding: 1em 3em;
-	background-color: #FFFFFF;
+div.flex-child {
+	flex:1 1 auto;
 }
 
-div:nth-child(3n) {
+/*-----------*/
+/* Other CSS */
+/*-----------*/
+div.section {
+	border-top: solid 1px #CCCCCC;
 	padding: 1em 3em;
+}
+
+div.section:nth-child(3n) {
 	background-color: #FFEBEE;
 }
 
-div {
-	border-top: solid 1px #CCCCCC;
+div.section:nth-child(3n-1) {
+	background-color: #F5F5F5;
 }
 
+div.section:nth-child(3n-2) {
+	background-color: #FFFFFF;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Helvetica san-serif;
